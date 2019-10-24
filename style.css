@@ -1,0 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url("../font/Montserrat-ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Sans Pro - Semibold";
+  src: url("../font/SourceSansPro-Semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Sans Pro - Semibold";
+  src: url("../font/SourceSansPro-Semibold.otf") format("opentype");
+}
+/*******************************************HEADER*/
+header {
+  align-items: center;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: row; */
+}
+.social-media {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: center;
+}
+.social-media a {
+  padding-right: 5px;
+}
+.connect {
+  padding-right: 5px;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.connect a img {
+  padding-right: 5px;
+}
+.social-header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  background-color: #292929;
+}
+.social-header a {
+  padding-right: 5px;
+  color: #ffffff;
+}
+.menu {
+  background-color: #f8fcff;
+}
+.gradiend-text {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.gradiend-text h1 {
+  padding: 55px 0 54px 0;
+  background: -webkit-linear-gradient(0deg, #3366cc 30%, #0099ff 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /********/
+  /* Style for "New Digita" */
+  font-family: "Montserrat-ExtraBold";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 29.13px;
+}
+
+nav {
+  width: 50%;
+  align-items: center;
+}
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid #009ce3 8px;
+}
+
+.menu li {
+  font-family: "Source Sans Pro - Semibold";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20.13px;
+  color: #3c3c3c;
+}
+.navigation-menu {
+  display: flex;
+}
+nav a {
+  padding: 0 50px 0 0;
+  color: #3c3c3c;
+}
+.social-header {
+  padding: 5px 0 5px 0;
+}
+.first-page {
+  height: 750px;
+  background: url(/img/bg-1try.png) no-repeat;
+  text-align: center;
+  margin: 0 auto;
+}
+.first-page h1 {
+  padding: 100px 0 28px 0;
+  /* Style for "Feature Po" */
+  color: #f8fcff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 43px;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid green;
+}
+.from250 {
+  margin: 0 auto;
+  width: 410px;
+  height: 80px;
+  padding: 30px 0 0 85px;
+  background: url(/img/from250.png) no-repeat;
+  background-size: 410px 80px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  color: #fa4a33;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 23.51px;
+}
+.description-text p {
+  /* Style for "Posts That" */
+  color: #f8fcff;
+  font-family: "Source Sans Pro - Semibold";
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 49.13px;
+}
+.contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us ul {
+  display: flex;
+}
+.skype {
+  vertical-align: middle;
+}
+li.email {
+  display: flex;
+  align-items: center;
+}
+li.skype {
+  display: flex;
+  align-items: center;
+}
+.contact-items a {
+  /* Style for "personalsk" */
+  width: 191px;
+  height: 27px;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 29.13px;
+}
+/*******************************************MAIN*/
+.main-container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.text-posts {
+  padding-top: 120px;
+}
+.photo-n-list {
+  display: flex;
+}
+main h1 {
+  color: #3c3c3c;
+  color: #3c3c3c;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 51.81px;
+
+  margin: 0 auto;
+}
+.list p {
+  text-align: start;
+  color: #4f4f4f;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.photo {
+  width: 50%;
+}
+.list {
+  padding: 0 0 0 30px;
+  width: 650px;
+}
+.list li {
+  padding: 40px 0 0 0;
+  align-items: center;
+  display: flex;
+}
+.button {
+  padding: 30px 0 0 0;
+}
+.button button {
+  cursor: pointer;
+  border-radius: 30px;
+  border-width: 0px;
+  width: 234px;
+  height: 54px;
+  background-color: #fa4a33;
+  /******/
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.13px;
+}
+.button button:hover {
+  transform: translateY(5px);
+}
+
+span.color-text {
+  color: #fa4a33;
+}
+.info {
+  padding: 70px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+.info img {
+  height: 121px;
+}
+.info p {
+  padding: 0 10px 0 10px;
+}
+.info li {
+  width: 300px;
+  color: #4f4f4f;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 29.13px;
+}
+.contactUs {
+  margin: 130px 0 0 0;
+  padding: 57px 0 0 0;
+  background: url(/img/bg_contact_us2.png) no-repeat;
+  width: 100%;
+}
+.contactUs ul {
+  justify-content: center;
+  display: flex;
+}
+.contactUs li {
+  width: 390px;
+  display: flex;
+  align-items: center;
+}
+.contactUs h1 {
+  color: #ffffff;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 51.81px;
+}
+.contactUs a {
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 29.08px;
+}
+/*******************************************FOOTER*/
+footer {
+  background-color: #1b1b1b;
+  width: 100%;
+}
+.footer {
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  max-width: 1170px;
+}
+footer h1 {
+  padding: 101px 0 116px 0;
+  height: 35px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+}
+.footer-links a {
+  padding: 0 40px 0 0;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29.13px;
+}
+.footer-links ul {
+  display: flex;
+}
+.footer-social img {
+  width: 36px;
+}
+.footer-social i {
+  padding: 0 0 0 25px;
+}
+body {
+}
+
+/**************************************ACCORDION*/
+.accordion-container {
+  padding: 156px 0 98px 0;
+  width: 780px;
+  margin: 0 auto;
+}
+.faq h1 {
+  padding: 0 0 50px 0;
+  height: 45px;
+  color: #3c3c3c;
+  font-family: "Montserrat-ExtraBold";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.faq {
+  background: url(/img/bg_faq.png) no-repeat bottom right;
+  margin: 0 auto;
+}
+/************************************/
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  /*css for text*/
+  color: #4f4f4f;
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active {
+  color: #0d3693;
+}
+.accordion:hover {
+  background-color: rgba(245, 241, 241, 0.64);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  color: #4f4f4f;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
+  font-weight: 700;
+  padding: 0 0;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.panel p {
+  padding: 18px;
+}
+.accordion:after {
+  content: url(/img/arrow_down.png);
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: url(/img/arrow_up.png);
+}
+.accordion-container i {
+  border-top: 1px solid black;
+}
+.border .accordion {
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
